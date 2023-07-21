@@ -7,7 +7,7 @@ import Galeria from '../../componentes/Galeria';
 
 
 export default function PaginaInicial() {
-    return(
+    return (
         <>
             <Cabecalho />
             <main>
@@ -18,10 +18,10 @@ export default function PaginaInicial() {
                         <img src={banner} alt="A imagem da terra vista do espaço" />
                     </div>
                 </section>
-                <div>
-                    <Galeria />
-                </div>
             </main>
+            <div className={styles.galeria}>
+                <Galeria />
+            </div>
             <Rodape />
         </>
     )
